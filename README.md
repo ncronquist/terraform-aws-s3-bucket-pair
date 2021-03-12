@@ -7,6 +7,7 @@ Template repository for creating and testing Terraform modules.
 
 The information below will help you work with this repo to make changes to the module.
 
+
 ### Required Tools
 
 - Golang binary in your path
@@ -14,7 +15,6 @@ The information below will help you work with this repo to make changes to the m
 
 
 ### Usage
-
 
 - Check Terraform and Golang file formatting
 
