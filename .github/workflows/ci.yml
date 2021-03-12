@@ -16,6 +16,8 @@ jobs:
         uses: hashicorp/setup-terraform@v1
         with:
           terraform_version: 0.14.8
+      - name: Check editorconfig formatting
+        uses: editorconfig-checker/action-editorconfig-checker@main
       - name: Check formatting
         run: make fmt-check
       - name: Run tests
