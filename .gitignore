@@ -1,6 +1,9 @@
 # Local .terraform directories
 **/.terraform/*
 
+# Terratest test data
+**/.test-data/*
+
 # .tfstate files
 *.tfstate
 *.tfstate.*
